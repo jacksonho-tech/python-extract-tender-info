@@ -133,8 +133,8 @@ tender-extractor/
 ├── README.md               # This file
 ├── .gitignore
 └── sample/
-    ├── Sch_no__4_7_-_IOC_Hardware.pdf          # Sample input
-    └── Sch_no_4_7_IOC_Hardware_extracted.xlsx  # Sample output
+    ├── tender.pdf          # Sample input
+    └── tender_extracted.xlsx  # Sample output
 ```
 
 ---
@@ -158,11 +158,6 @@ tender-extractor/
 - **Non-standard layouts** — if your PDF uses significantly different column proportions, use the calibration snippet above to update `COL_SEPS_FRAC`.
 - **Processing speed** — OCR at 300 DPI takes ~12–15 seconds per page. Use `--dpi 200` for faster (slightly less accurate) processing.
 
----
-
-## Related Projects
-
-- **extract_gessi_full.py** — extracts product price books from GESSI catalogue PDFs (text-based, no OCR required)
 
 ---
 
